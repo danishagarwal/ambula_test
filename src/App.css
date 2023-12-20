@@ -60,6 +60,15 @@
   font-size: 16px;
 }
 
+.display-todo {
+  margin-left: 40%;
+  display: flex;
+  justify-content: left;
+  align-items:center;
+}
+
+
+
 
 @media screen and (max-width: 400px) {
   .nav-bar {

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const TodoForm = ({ addTodo }) => {
   const [value, setValue] = useState("");
 
+  //When button clicked - Adding todo
   const handleSubmit = (e) => {
     e.preventDefault();
     if (value) {
